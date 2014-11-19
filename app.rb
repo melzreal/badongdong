@@ -1,5 +1,5 @@
 require "sinatra"
 
 get "/" do
-	"Hello world! Hey this is Elena"
+	erb :home
 end
